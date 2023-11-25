@@ -1,9 +1,12 @@
 import { } from 'react';
+import './Home.scss'
 
 function Home() {
     return (
         <>
-            <h1>404-Página Não encontrada</h1>
+            <div className="home-container">
+                <h1>404-Página Não encontrada</h1>
+            </div>
         </>
     )
 }

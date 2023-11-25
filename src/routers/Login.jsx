@@ -6,10 +6,6 @@ function Login() {
     /*hook useref ele retorna uma referencia a um elemento ou componente sem ter que ser renderizado novamente e também permite acesso ao DOM */
     const user = useRef();
     const password = useRef();
-    /* pegando o usuario e adcionando ao sessionStorage */
-    const getUser = sessionStorage.getItem('userData');
-    /* pegando o senha e adcionando ao sessionStorage */
-    const getSenha = sessionStorage.getItem('senhaData');
 
     /*função que verifica se o usuario e senha são validos e grava na sessão */
     // const handleSubmit = () => {
@@ -44,6 +40,7 @@ function Login() {
 
                 if (userFound) {
                     sessionStorage.setItem('email', userFound.email)
+                    sessionStorage.setItem('nome', userFound.nome)
                     window.location = '/home';
                 } else {
                     alert('Email ou senha incorretos')
