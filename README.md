@@ -4,5 +4,5 @@ Respositório destinado ao Sistema desenvolvido para a Global Solution do 2º Se
 Wesley de Souza Silva - RM98292
 
 - Credenciais para login: 
-Email: jonas@email.com
-Senha: jonas123
+  - Email: jonas@email.com
+  - Senha: jonas123
